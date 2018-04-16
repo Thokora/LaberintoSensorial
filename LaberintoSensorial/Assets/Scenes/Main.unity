@@ -1188,7 +1188,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7ac05d4c78dbc4bd792428649b027747, type: 2}
+  - {fileID: 2100000, guid: d52748b746683d440a10884724825df2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1236,8 +1236,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1767952295}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.91, z: 0}
-  m_LocalScale: {x: 6.8558116, y: 6.85581, z: 6.85581}
+  m_LocalPosition: {x: 0, y: -34, z: 391}
+  m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1427,8 +1427,8 @@ MonoBehaviour:
   player: {fileID: 1430658277}
   CameraObject: {fileID: 921796372}
   CameraAll: {fileID: 711870329}
-  Velocity: 3
-  RunVelocity: 10
+  Velocity: 25
+  RunVelocity: 50
 --- !u!4 &1898374224
 Transform:
   m_ObjectHideFlags: 0

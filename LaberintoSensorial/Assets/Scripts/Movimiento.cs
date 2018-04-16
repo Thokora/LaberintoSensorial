@@ -36,10 +36,10 @@ public class Movimiento : MonoBehaviour
     void MoverPlayer()
     {
         MoveV = Input.GetAxis("Horizontal"); //Se coloca horizontal para que quede dereho en el control // descomentar
-        controller.transform.Translate(Vector3.forward * (-MoveV * CaminarValor) * Time.deltaTime);
+        controller.transform.Translate(Vector3.forward * ((-MoveV * 2) * CaminarValor) * Time.deltaTime);
 
-        MoveH = Input.GetAxis("Vertical"); //Se coloca Vertical para que quede dereho en el control
-        controller.transform.Translate(Vector3.right * (MoveH * CaminarValor) * Time.deltaTime);//Es necesario?
+        /*MoveH = Input.GetAxis("Vertical"); //Se coloca Vertical para que quede dereho en el control
+        controller.transform.Translate(Vector3.right * (MoveH * CaminarValor) * Time.deltaTime);//Es necesario?*/
 
         if (Input.GetButton("Fire1"))
         { //correr D
