@@ -421,8 +421,11 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-    <Compile Include="Assets\LookRotation.cs" />
+    <Compile Include="Assets\Scripts\LookRotation.cs" />
     <Compile Include="Assets\Scripts\Movimiento.cs" />
+    <Compile Include="Assets\Scripts\PararTiempo.cs" />
+    <Compile Include="Assets\Scripts\PistaScript.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Tocado.cs" />
   </ItemGroup>
   <ItemGroup>

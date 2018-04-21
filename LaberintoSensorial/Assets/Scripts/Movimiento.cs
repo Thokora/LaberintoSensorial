@@ -7,6 +7,7 @@ public class Movimiento : MonoBehaviour
     public GameObject player;
     public GameObject CameraObject;
     public GameObject CameraAll;
+    public GameObject ObjectPista;
     CharacterController controller;
     public float Velocity = 3f;
     public float RunVelocity = 10f;
@@ -48,6 +49,15 @@ public class Movimiento : MonoBehaviour
         else
         {
             CaminarValor = Velocity;
+        }
+
+        if (Input.GetButton("Fire2"))
+        {//disparar B y Abajo
+            ObjectPista.SetActive(true);
+        }
+        else
+        {
+            ObjectPista.SetActive(false);
         }
     }
 
