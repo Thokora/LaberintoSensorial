@@ -7,6 +7,7 @@ public class PistaScript : MonoBehaviour {
     Movimiento movScript;
     public GameObject pista;
     public GameObject player;
+    float ValorRot;
 
 	void Start () {
 		
@@ -15,7 +16,10 @@ public class PistaScript : MonoBehaviour {
 	void Update () {
 
         pista.transform.position = 
-            new Vector3(player.transform.position.x, player.transform.position.y, (player.transform.position.z + 2f));
+            new Vector3(player.transform.position.x, player.transform.position.y, (player.transform.position.z));
+
+        ValorRot = player.transform.eulerAngles.y;
+        pista.transform.eulerAngles = new Vector3(0, ValorRot, 0);
 
     }
 }
