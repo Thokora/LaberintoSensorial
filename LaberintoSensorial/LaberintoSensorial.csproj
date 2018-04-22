@@ -427,6 +427,7 @@
     <Compile Include="Assets\Scripts\PistaScript.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Tocado.cs" />
+    <Compile Include="Assets\Scripts\TriggerPista.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />

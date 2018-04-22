@@ -8,6 +8,8 @@ public class Movimiento : MonoBehaviour
     public GameObject CameraObject;
     public GameObject CameraAll;
     public GameObject ObjectPista;
+    public GameObject Brazo;
+    Animator AnimPista;
     CharacterController controller;
     public float Velocity = 3f;
     public float RunVelocity = 10f;
@@ -21,9 +23,7 @@ public class Movimiento : MonoBehaviour
 
         controller = player.GetComponent<CharacterController>();
         controller.detectCollisions = true;
-        /*animator = GetComponent<Animator>();
-        nikolai = GameObject.Find("Nikolai");
-        shooting = false;*/
+        AnimPista = Brazo.GetComponent<Animator>();
 
     }
 
@@ -54,10 +54,13 @@ public class Movimiento : MonoBehaviour
         if (Input.GetButton("Fire2"))
         {//disparar B y Abajo
             ObjectPista.SetActive(true);
+            AnimPista.SetBool("Ver", true);
+
         }
         else
         {
             ObjectPista.SetActive(false);
+            AnimPista.SetBool("Ver", false);
         }
     }
 

@@ -5,7 +5,6 @@ using UnityEngine;
 public class PararTiempo : MonoBehaviour {
 
     public string Player = "Player";
-    Timer timerScript;
 
     private void OnTriggerEnter(Collider other)
     {
