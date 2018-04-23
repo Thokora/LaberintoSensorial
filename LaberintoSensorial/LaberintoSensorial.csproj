@@ -406,6 +406,7 @@
     <Compile Include="Assets\Scripts\PistaScript.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\Tocado.cs" />
+    <Compile Include="Assets\Scripts\TriggerItemTower.cs" />
     <Compile Include="Assets\Scripts\TriggerPista.cs" />
   </ItemGroup>
   <ItemGroup>
