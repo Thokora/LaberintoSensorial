@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2869,6 +2869,23 @@ Transform:
   m_PrefabParentObject: {fileID: 4000012250221926, guid: b4525aed3dc3e8b4896e63eaae30144f,
     type: 2}
   m_PrefabInternal: {fileID: 262258714}
+--- !u!1 &452956875 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013722183174, guid: e318266f60803d548a4b409b52b39d8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2097588200}
+--- !u!65 &452956876
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452956875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50.1, y: 23.6, z: 1}
+  m_Center: {x: 1.15, y: 0.17, z: -10.09}
 --- !u!1001 &460954193
 Prefab:
   m_ObjectHideFlags: 0
@@ -6673,6 +6690,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1027816678 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013722183174, guid: e318266f60803d548a4b409b52b39d8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 421606593}
+--- !u!65 &1027816679
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027816678}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34, y: 26.5, z: 1}
+  m_Center: {x: 1.04, y: 7.7, z: 0}
 --- !u!1001 &1030922573
 Prefab:
   m_ObjectHideFlags: 0
@@ -13877,6 +13911,23 @@ Transform:
   m_PrefabParentObject: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358,
     type: 2}
   m_PrefabInternal: {fileID: 1415349896}
+--- !u!1 &2035163932 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013722183174, guid: e318266f60803d548a4b409b52b39d8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1509864178}
+--- !u!65 &2035163933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2035163932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 38.8, y: 28.8, z: 1.2}
+  m_Center: {x: -1.83, y: 2.33, z: 7.98}
 --- !u!4 &2035652205 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358,
