@@ -18,6 +18,7 @@ public class Movimiento : MonoBehaviour
     float MoveV;
     float MoveH;
 
+
     void Start()
     {
 
@@ -39,10 +40,18 @@ public class Movimiento : MonoBehaviour
         MoveV = Input.GetAxis("Horizontal"); //Se coloca horizontal para que quede dereho en el control // descomentar
         controller.transform.Translate(Vector3.forward * ((-MoveV * 2) * CaminarValor) * Time.deltaTime);
 
-        /*MoveH = Input.GetAxis("Vertical"); //Se coloca Vertical para que quede dereho en el control
-        controller.transform.Translate(Vector3.right * (MoveH * CaminarValor) * Time.deltaTime);//Es necesario?*/
 
-        if (Input.GetButton("Fire1"))
+        //Vector3 moveDirection = new Vector3(0, 5, 0);
+        //Physics.gravity = new Vector3(0, -1.0F, 0);
+        //if (controller.isGrounded)
+        //{
+            //moveDirection.y = jumpSpeed;
+        //}
+
+            /*MoveH = Input.GetAxis("Vertical"); //Se coloca Vertical para que quede dereho en el control
+            controller.transform.Translate(Vector3.right * (MoveH * CaminarValor) * Time.deltaTime);//Es necesario?*/
+
+            if (Input.GetButton("Fire1"))
         { //correr D
             CaminarValor = RunVelocity;
         }
