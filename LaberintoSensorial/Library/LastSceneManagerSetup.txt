@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/laberinto1,2.unity
+- path: Assets/piramide/Scenes/Pyramid.unity
   isLoaded: 1
   isActive: 1
