@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 34
+  controlID: 9
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 360
     height: 630
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1421
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 10
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1421
     height: 630
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 11
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,30 +325,30 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Cartoon Temple Building Kit/Prefabs/Round Prefabs
+    - Assets/piramide
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Cartoon Temple Building Kit/Prefabs/Round Prefabs
+  - Assets/piramide
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UNITY\proyectos\GitHub\LaberintoSensorial\LaberintoSensorial
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: f85a0000
-    m_LastClickedID: 23288
-    m_ExpandedIDs: 000000003c2c0000e82d0000302e0000582e00002e2f000030310000e8310000ca3300000c36000086360000324000003440000036400000384000003a4000003c4000003e40000040400000424000004440000046400000484000004a4000004c4000004e400000504000005240000054400000ac5a0000b85a0000ffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3c400000
+    m_LastClickedID: 16444
+    m_ExpandedIDs: 000000003c2c0000422f0000da2f00001e3000000e3200001e320000a83600000a380000503800008a390000043c00000e3d0000703e0000a03e0000304100009442000002430000fe60000000610000026100000461000006610000086100000a6100000c6100000e61000010610000126100001461000016610000186100001a6100001c6100001e61000020610000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Square Holes Prefabs
-      m_OriginalName: Square Holes Prefabs
+      m_Name: Ground X Prefabs
+      m_OriginalName: Ground X Prefabs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23316
+      m_UserData: 16032
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c2c0000942c0000e82d0000302e0000582e00002e2f000030310000e8310000ca33000086360000324000003440000036400000384000003a4000003c4000003e40000040400000424000004440000046400000484000004a4000004c4000004e400000504000005240000054400000
+    m_ExpandedIDs: 000000003c2c0000422f0000da2f00001e3000000e3200001e32000080330000a83600000a380000043c00003c40000030410000fe60000000610000026100000461000006610000086100000a6100000c6100000e61000010610000126100001461000016610000186100001a6100001c6100001e61000020610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,8 +392,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000b83e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,24 +480,24 @@ MonoBehaviour:
     width: 358
     height: 609
   m_TreeViewState:
-    scrollPos: {x: 0, y: 7600}
-    m_SelectedIDs: 3474eaff
-    m_LastClickedID: -1412044
-    m_ExpandedIDs: b20df3ffd828f3ff0642f3ff725bf3ffc867fbffa67efcff82fbfdff8cfbfdff92fbfdffacfbfdff0400feffc800fefff800feffe607fefff007fefff407fefff607feff0208feff1008feffd00bfeffca30feffb433feff4c38feff9639feff9c3afeff9a3bfeffde3cfefff43dfeff6841feff7642feff024afeffc24efeffde58feff165dfeff0067feff6669feff066cfeff2473feff5a74feff6c75feff0078feff267ffeff88d3ffff94d3ffffa0d3ffffa4d3ffffa8d3ffff20d9ffff2ed9ffff30d9ffff72e2ffffa6fbffff00000000c24400006a450000cc4500001a7501005a770100ee780100567b01005a7c01001a8101007620020042210200ba21020068230200
+    scrollPos: {x: 0, y: 6464}
+    m_SelectedIDs: 140cffff
+    m_LastClickedID: -62444
+    m_ExpandedIDs: 1650f6ff8462f6ffa668f6ff6a72f6ff5a85f6ff688cf6ffb0b7fbff9c67fdffa88cfdffa8d8ffffaad8ffffaed8ffffecddffffa6fbffff0000000068450000ba480000724d0000944e0000784f00008e52000050560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Blocks And Bricks 16 (1)
+      m_OriginalName: Blocks And Bricks 16 (1)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -84620
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 1057
     height: 609
   m_SceneLighting: 1
-  lastFramingTime: 7197.5579562398425
+  lastFramingTime: 2163.185598093991
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1491.2272, y: -196.28143, z: -1497.4038}
+    m_Target: {x: 1323.498, y: -36.60898, z: -1217.5134}
     speed: 2
-    m_Value: {x: 1491.2272, y: -196.28143, z: -1497.4038}
+    m_Value: {x: 1323.498, y: -36.60898, z: -1217.5134}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,13 +563,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.50096774, y: -0.49777067, z: 0.47224423, w: 0.52761006}
+    m_Target: {x: 0.2838797, y: -0.6322527, z: 0.2676622, w: 0.6693799}
     speed: 2
-    m_Value: {x: 0.50093484, y: -0.49773797, z: 0.4722132, w: 0.52757543}
+    m_Value: {x: 0.2838735, y: -0.6322389, z: 0.26765636, w: 0.6693653}
   m_Size:
-    m_Target: 1145.3848
+    m_Target: 735.25507
     speed: 2
-    m_Value: 1145.3848
+    m_Value: 735.25507
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -606,7 +606,7 @@ MonoBehaviour:
     x: 362
     y: 92
     width: 1057
-    height: 624
+    height: 609
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -617,8 +617,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     m_HBaseRangeMin: -528.5
     m_HBaseRangeMax: 528.5
-    m_VBaseRangeMin: -303.5
-    m_VBaseRangeMax: 303.5
+    m_VBaseRangeMin: -296
+    m_VBaseRangeMax: 296
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -636,9 +636,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 1057
-      height: 607
+      height: 592
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 528.5, y: 303.5}
+    m_Translation: {x: 528.5, y: 296}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -646,14 +646,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -528.5
-      y: -303.5
+      y: -296
       width: 1057
-      height: 607
+      height: 592
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1057, y: 624}
+  m_LastWindowPixelSize: {x: 1057, y: 609}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
